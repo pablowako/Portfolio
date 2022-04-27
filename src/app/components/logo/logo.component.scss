@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    width: 50em;
+    stroke-linecap: round;
+}
+.logo{
+    &__neon{
+        stroke: white;
+        z-index: 2;
+    }
+}
+
+.glow{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(3px);
+    &__neon{
+        stroke: blue;
+    }
+}
