@@ -1,0 +1,29 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(66, 66, 105, 0.173);
+    backdrop-filter: blur(3px);
+
+}
+.wrap {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.button {
+    background: lightsalmon;
+    width: 15em;
+    height: 5em;
+    margin: .5em 0;
+
+}
+.a {
+
+}
